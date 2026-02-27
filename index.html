@@ -13478,7 +13478,7 @@ function loadScript(src) {
         ctx.font = '900 ' + Math.round(size * 0.12) + 'px "Arial Black", Arial, sans-serif';
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
-        ctx.fillText('REFUSAL', size / 2, barY + barH / 2);
+        ctx.fillText('CHART', size / 2, barY + barH / 2);
         resolve(c.toDataURL('image/png'));
       };
       img.onerror = function() {
@@ -13490,7 +13490,7 @@ function loadScript(src) {
         ctx.textBaseline = 'middle';
         ctx.fillText('NCEMS', size/2, size*0.4);
         ctx.font = '900 ' + Math.round(size * 0.14) + 'px Arial, sans-serif';
-        ctx.fillText('REFUSAL', size/2, size*0.65);
+        ctx.fillText('CHART', size/2, size*0.65);
         resolve(c.toDataURL('image/png'));
       };
       img.src = 'data:image/jpeg;base64,' + NCEMS_LOGO_B64;
